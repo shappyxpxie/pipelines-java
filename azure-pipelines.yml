@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo $(VG-test.myName)
+- script: echo $(myName)
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
